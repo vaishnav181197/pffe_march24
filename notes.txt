@@ -1,0 +1,10 @@
+Context API:
+---------------
+-Context provides a way to pass data through the component tree without having to pass props down manually at every level.
+-Context is designed to share data that can be considered “global” for a tree of React components
+
+-create a context component
+-create context instance(createContext())
+-define content to share
+-provide the content through context to the whole app(<Provider>)
+-access globally passed data through useContext() hook on needed components
